@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #313232;
+  color: white;
+  position: relative;
+  max-width: 800px;
+  min-height: 100%;
+  margin: 0 auto;
+  font-family: 'Suisse';
+  box-sizing: border-box;
+  padding: 12px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+  padding: 10px 15px 10px 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.description {
+  text-align: center;
+}
+
+.list {
+  display: block;
+  text-align: left;
+}
+
+.image {
+  width: 90%;
+}
+.links {
+  display: block;
+  font-size: 0;
+  margin: 50px auto 0px;
+}
+
+.card {
+  width: 300px;
+  margin-right: 90px;
+  padding: 45px 20px 45px;
+  display: inline-block;
+  align-items: baseline;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.no-right-margin {
+  margin-right: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  margin-left: 85px;
+  padding-top: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 850px) {
+  .links .header {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .card {
+    display: block;
+    margin-right: 0;
+    margin: 0 auto;
+  }
+  .image {width: 100%}
+}
