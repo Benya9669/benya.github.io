@@ -2,7 +2,7 @@
   "kernel": {
     "name": "Benya-TTL",
     "version": "4.4.261-Benya-TTL",
-    "link": "https://github.com/Benya9669/android_kernel_sony_msm8998/releases/download/v4.4.261/Benya-TTL-Lilac.zip",
+    "link": "https://github-releases.githubusercontent.com/337521049/4ed38d00-83ad-11eb-8072-f22bbee3f825?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210313T004225Z&X-Amz-Expires=300&X-Amz-Signature=9036f5201cf0372e40573923c5dd38295b22462915485c18f08294b9f170c34d&X-Amz-SignedHeaders=host&actor_id=60983777&key_id=0&repo_id=337521049&response-content-disposition=attachment%3B%20filename%3DBenya-TTL-Lilac.zip&response-content-type=application%2Foctet-stream",
     "changelog_url": "changelog_texts_or_url",
     "sha1": "0E50757D835A37631449688B4AB4C3B99447CD15"
   },
